@@ -55,6 +55,9 @@ LCP FID CLS ..
 
 UI patterns / anti-patterns
 
+Demo of recording web vitals
+Demo of measuring performance in Chrome
+
 ---
 
 RAIL model
