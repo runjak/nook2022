@@ -9,7 +9,69 @@ revealOptions:
 
 # Data-driven UX
 
-Core Web Vitals und das Rail performance Modell
+Core Web Vitals und das Rail performance Model
+
+-v-
+
+Moin 👋
+
+Ich bin Jakob,  
+und manchmal mache ich 1 WebDev.
+
+-v-
+
+Es gibt da dann ja so Komplexitäten, mit Software
+
+- im Problem das wir lösen wollen
+- in Browsern
+- in der UI
+
+-v-
+
+Komplextät ist immer mal sehr verlockend.
+
+(Wir denken uns dann was)
+
+-v-
+
+Angenehm kann dann auch sein
+
+- eine gute Lösung zu bauen
+- UI, die schwuppt
+- Software, die Leute gerne benutzen
+
+---
+
+## UX
+
+-v-
+
+> The **user experience** (UX) is how a user interacts with and experiences a product, system or service …
+
+[en.wikipedia.org/wiki/User_experience](https://en.wikipedia.org/wiki/User_experience)
+
+> a user’s perceptions and responses that result from the use and/or anticipated use …
+
+[ISO 9241](https://en.wikipedia.org/wiki/ISO_9241)
+
+-v-
+
+Ganz schöner Themenkomplex.
+
+-v-
+
+Wir gucken uns nur ein paar Aspekte an,  
+Google tut da was:
+
+- Core Web Vitals
+- Das Rail performance model
+
+-v-
+
+Wir gucken uns nicht an:
+
+- Viele Sachen
+- A11y, aria, reduced-motion, high-contrast / low-contrast
 
 ---
 
