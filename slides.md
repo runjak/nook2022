@@ -73,6 +73,53 @@ Wir gucken uns nicht an:
 - Viele Sachen
 - A11y, aria, reduced-motion, high-contrast / low-contrast
 
+-v-
+
+### Hot take 🌶️
+
+- Gute UX passiert nicht einfach so
+- Es reicht nicht aus, auf Gutes zu hoffen
+- Gute Software hat Methode
+- Messen und verbessern von Mängeln
+- Engineering culture
+
+---
+
+Die Sache mit den Nummernblöcken
+
+---
+
+Die Sache mit den Delays
+
+---
+
+Das Rail modell
+
+---
+
+Diese Web Vitals
+
+---
+
+LCP
+
+---
+
+FID
+
+---
+
+CLS
+
+---
+
+A draft on how to measure
+
+sendBeacon
+How to with Fastly
+  In case of Cloudflare just change the CDN ;)
+S3 or similar
+
 ---
 
 // We start with some introduction
@@ -130,7 +177,10 @@ The idea of a budget that is derived from measured numbers.
 
 ---
 
-Danke und so 🤗
+- ⏱️ Lasst mal Dinge messen!
+- 🚀 Lasst mal ungünstige Messungen besser machen!
+
+Weil wir Software mögen und so 🤗
 
 - Slides: [github.com/runjak/nook2022](https://github.com/runjak/nook2022)
 - Website: [runjak.codes](https://www.runjak.codes/)
