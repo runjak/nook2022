@@ -56,3 +56,6 @@ https://web.dev/rail/
 - https://www.nngroup.com/courses/human-mind/
 - https://www.nngroup.com/books/usability-engineering/
 - https://www.nngroup.com/articles/interaction-branding/
+
+Human factors engineering studies of the design and use of pushbutton telephone sets
+https://ieeexplore.ieee.org/document/6773609
