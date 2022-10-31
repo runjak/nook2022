@@ -3,8 +3,9 @@ title: User-centric web experience - Nook 2022
 separator: ---
 verticalSeparator: -v-
 revealOptions:
-  transition: 'slide'
+  transition: "slide"
 ---
+
 <!-- npx reveal-md ./slides.md -->
 
 # Data-driven UX
@@ -85,29 +86,129 @@ Wir gucken uns nicht an:
 
 ---
 
+## Response times
+
+-v-
+
+Nielsen Norman Group (NN/g)
+
+[www.nngroup.com/../response-times-3-important-limits/](https://www.nngroup.com/articles/response-times-3-important-limits/)
+Auch: Miller 1968 - Response time in man-computer conversational transactions
+
+-v-
+
+Experimente:
+
+- Messen von Intervallen, die von Menschen als klar länger/kürzer wahrgenommen werden
+- Die Sache mit der Frustration beim Umblättern
+
+-v-
+
+Daraus hervorgegangen:
+Empfehlungen von Zeitbudgets für typische Interaktionen mit Systemen.
+
+Beispiele:
+
+- Zeit bis zum Signalton am Telefon
+- Frustrationen bei Interaktion mit textbasierten Interfaces
+- Nebenläufige Prozesse - in 1h oder 1t ist ~egal
+
+-v-
+
+Viele Vermutungen, wenig Messungen
+
+Behauptung, Miller 1968:
+(Reaktions-)Zeiten sind allgemeingültig, verändern sich wenig
+
+-v-
+
+Nach wie vor Grundlage für viele Interfaces
+
+Davon wurde auch ein spezifisches Performancebudget abgeleitet,
+das RAIL modell
+
+-v-
+
+Akronym erklären
+
+Budgets erklären
+
+Zeiten für Frames ableiten
+
+Zeiten für Idle/Load ableiten
+
+---
+
+## Das Rail modell
+
+[web.dev/rail](https://web.dev/rail/)
+
+---
+
 Die Sache mit den Nummernblöcken
+Deininger 1960 - Human factors engineering studies of the design and use of pushbutton telephone sets
 
----
+-v-
 
-Die Sache mit den Delays
+Beim Wechsel von Wählscheiben zu Knöpfen an Telefonen waren viele Fragen offen:
 
----
+- Was sind gute Verteilungen von Knöpfen in der Fläche?
+  - Wie sollten diese Verteilungen beschriftet werden?
+- Wie groß und mit welchen Abständen sollten Knöpfe verteilt sein?
+- Wie sollten Knöpfe auf Druck reagieren?
 
-Das Rail modell
+-v-
 
----
+Real User Data vs. Lab data
 
-Diese Web Vitals
+Idee: Tatsächliche Leute als möglich Nutzende zu Rate ziehen.
 
----
+Datenerhebung:
 
-LCP
+- Korrektheit der Eingaben
+- Eingabegeschwindigkeiten
+- Ratschläge/Ansichten der Testenden in Textform
 
----
+-v-
 
-FID
+Ableiten von Web Vitals
 
----
+Unterschied zwischen Lab Data und RUM
+Was ist der Zugewinn durch RUM?
+
+-v-
+
+Was wird sich von diesen Metriken erhofft?
+
+- Von Google
+- Von Leuten, die Websites bauen
+- Von Nutzenden
+
+-v-
+
+LCP - Largest Contentful Paint
+
+Wie lange dauert es, die größte, initial sichtbare Fläche zu rendern?
+Wir interessieren uns für das p75 der Messungen.
+
+Kontext:
+Das größte initiale Element - gleich ob Bild oder Text - einer Seite trägt den wichtigsten Inhalt.
+Warten auf wichtige Inhalte ist frustrierend.
+
+-v-
+
+FID - First Input Delay
+
+Wie lange ist die Verzögerung zwischen dem Auslösen der ersten Interaktion
+  mit einer Seite und einer darauf folgenden Reaktion?
+Wir interessieren uns für das p75 der Messungen.
+
+Kontext:
+Gerade Seiten mit JavaScript können besondere Verzögerungen bei Interaktionen haben.
+Langsamere Verbindungen sind eine zusätzliche Last.
+Initaler Delay -> ggf. passiert noch besonders viel zum Laden von Seitenteilen.
+
+-v-
 
 CLS
 
@@ -117,7 +218,7 @@ A draft on how to measure
 
 sendBeacon
 How to with Fastly
-  In case of Cloudflare just change the CDN ;)
+In case of Cloudflare just change the CDN ;)
 S3 or similar
 
 ---
