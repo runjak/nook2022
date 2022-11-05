@@ -88,19 +88,34 @@ Wir gucken uns nicht an:
 
 ## Response times
 
+(Die für Menschen)
+
+-v-
+
+![Miller 1968 headline](./img/miller-1968-conversational-transactions/headline.png)
+
+-v-
+
+### Viel inhalt
+
+- Activity clumping
+- Psychological closure
+- Stepdown discontinuities bei Verzögerungen
+- Ratschläge für unterschiedliche Scenarien
+  - Response to simply inquiry of listed information
+
+-v-
+
+### Next page
+
+![Miller 1968 headline](./img/miller-1968-conversational-transactions/page-turning.png)
+
 -v-
 
 Nielsen Norman Group (NN/g)
 
 [www.nngroup.com/../response-times-3-important-limits/](https://www.nngroup.com/articles/response-times-3-important-limits/)
 Auch: Miller 1968 - Response time in man-computer conversational transactions
-
--v-
-
-Experimente:
-
-- Messen von Intervallen, die von Menschen als klar länger/kürzer wahrgenommen werden
-- Die Sache mit der Frustration beim Umblättern
 
 -v-
 
