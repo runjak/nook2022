@@ -155,19 +155,53 @@ das RAIL Modell.
 
 ## Das Rail modell
 
-![Rail modell grafik](./img/rail.png)
+![Rail modell grafik](./img/web-dev/rail.png)
 
 [web.dev/rail](https://web.dev/rail/)
 
 -v-
 
-Akronym erklären
+### Response
 
-Budgets erklären
+- 💭: 0.1s Budget
+  - 100ms
+- Klicks, Tastendrücke und sowas
 
-Zeiten für Frames ableiten
+-v-
 
-Zeiten für Idle/Load ableiten
+![Tasks](./img/web-dev/tasks.png)
+
+-v-
+
+### Animation
+
+- 💭: 0.1s Budget
+- Zeit für JS pro Frame: 100ms/60 -> 16ms
+  - 6ms für Rendering
+  - <= 10 ms für JS
+
+-v-
+
+### Idle
+
+- 💭: Idlezeit maximieren
+- In der Idlezeit angestaute Arbeit erledigen
+- Arbeit auf 50ms Blöcke beschränken
+
+-v-
+
+### Load
+
+- 💭: 1s, 10s Limits
+- <= 5s zum initialen Laden der Seite
+- <= 2s für weitere loads
+
+-v-
+
+### Fokus auf user
+
+- Daten von Nutzenden in Betracht ziehen.
+- Tunnel in Brandenburg?
 
 ---
 
