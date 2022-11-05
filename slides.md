@@ -141,6 +141,8 @@ Zeiten für Idle/Load ableiten
 
 ## Das Rail modell
 
+![Rail modell grafik](./img/rail.png)
+
 [web.dev/rail](https://web.dev/rail/)
 
 ---
