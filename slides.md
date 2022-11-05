@@ -112,13 +112,6 @@ Wir gucken uns nicht an:
 
 -v-
 
-Nielsen Norman Group (NN/g)
-
-[www.nngroup.com/../response-times-3-important-limits/](https://www.nngroup.com/articles/response-times-3-important-limits/)
-Auch: Miller 1968 - Response time in man-computer conversational transactions
-
--v-
-
 Daraus hervorgegangen:
 Empfehlungen von Zeitbudgets für typische Interaktionen mit Systemen.
 
@@ -135,12 +128,36 @@ Viele Vermutungen, wenig Messungen
 Behauptung, Miller 1968:
 (Reaktions-)Zeiten sind allgemeingültig, verändern sich wenig
 
+---
+
+### Nielsen Norman Group
+
+Jakob Nielsen: Usability Engineering, 1993
+
+[www.nngroup.com/../response-times-3-important-limits/](https://www.nngroup.com/articles/response-times-3-important-limits/)
+
+-v-
+
+#### Obere Grenzen
+
+- 0.1s um eine Reaktion als Sofort wahrzunehmen
+- 1s für einen ununterbrochenen Gedankenfluss
+- 10s für die Aufmerksamkeit
+
 -v-
 
 Nach wie vor Grundlage für viele Interfaces
 
 Davon wurde auch ein spezifisches Performancebudget abgeleitet,
-das RAIL modell
+das RAIL Modell.
+
+---
+
+## Das Rail modell
+
+![Rail modell grafik](./img/rail.png)
+
+[web.dev/rail](https://web.dev/rail/)
 
 -v-
 
@@ -151,14 +168,6 @@ Budgets erklären
 Zeiten für Frames ableiten
 
 Zeiten für Idle/Load ableiten
-
----
-
-## Das Rail modell
-
-![Rail modell grafik](./img/rail.png)
-
-[web.dev/rail](https://web.dev/rail/)
 
 ---
 
