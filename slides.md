@@ -205,6 +205,10 @@ das RAIL Modell.
 
 ---
 
+![Telefone](./img/Telefon_BW_2012-02-18_13-44-32.jpg)
+
+-v-
+
 ![Deininger 1960 Headline](./img/deininger-1960-pushbutton-telephone-sets/headline.png)
 
 -v-

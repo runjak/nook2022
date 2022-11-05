@@ -59,3 +59,6 @@ https://web.dev/rail/
 
 Human factors engineering studies of the design and use of pushbutton telephone sets
 https://ieeexplore.ieee.org/document/6773609
+
+https://en.wikipedia.org/wiki/Telephone
+https://en.wikipedia.org/wiki/File:Telefon_BW_2012-02-18_13-44-32.JPG
