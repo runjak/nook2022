@@ -145,19 +145,37 @@ Zeiten für Idle/Load ableiten
 
 ---
 
-Die Sache mit den Nummernblöcken
-Deininger 1960 - Human factors engineering studies of the design and use of pushbutton telephone sets
+![Deininger 1960 Headline](./img/deininger-1960-pushbutton-telephone-sets/headline.png)
 
 -v-
 
-Beim Wechsel von Wählscheiben zu Knöpfen an Telefonen waren viele Fragen offen:
-
-- Was sind gute Verteilungen von Knöpfen in der Fläche?
-  - Wie sollten diese Verteilungen beschriftet werden?
-- Wie groß und mit welchen Abständen sollten Knöpfe verteilt sein?
-- Wie sollten Knöpfe auf Druck reagieren?
+![Deininger 1960 button sets group 1](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-1.png)
 
 -v-
+
+![Deininger 1960 button sets group 2](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-2.png)
+
+-v-
+
+![Deininger 1960 button sets group 3](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-3.png)
+
+-v-
+
+![Deininger 1960 button sets group 4](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-4.png)
+
+-v-
+
+![Deininger 1960 button sets group 5](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-5.png)
+
+-v-
+
+![Deininger 1960 button sets group 6](./img/deininger-1960-pushbutton-telephone-sets/button-sets-group-6.png)
+
+-v-
+
+![Deininger 1960 button sizing](./img/deininger-1960-pushbutton-telephone-sets/button-sizing.png)
+
+---
 
 Real User Data vs. Lab data
 
