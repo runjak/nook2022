@@ -1,5 +1,5 @@
 ---
-title: User-centric web experience - Nook 2022
+title: Aspects of data-driven UX - Nook 2022
 separator: ---
 verticalSeparator: -v-
 revealOptions:
@@ -81,7 +81,7 @@ Wir gucken uns nicht an:
 - Gute UX passiert nicht einfach so
 - Es reicht nicht aus, auf Gutes zu hoffen
 - Gute Software hat Methode
-- Messen und verbessern von Mängeln
+- Messen und Verbessern von Mängeln
 - Engineering culture
 
 ---
@@ -112,10 +112,7 @@ Wir gucken uns nicht an:
 
 -v-
 
-Daraus hervorgegangen:
-Empfehlungen von Zeitbudgets für typische Interaktionen mit Systemen.
-
-Beispiele:
+Empfehlungen, Beispiele:
 
 - Zeit bis zum Signalton am Telefon
 - Frustrationen bei Interaktion mit textbasierten Interfaces
@@ -239,17 +236,21 @@ das RAIL Modell.
 
 ![Deininger 1960 button sizing](./img/deininger-1960-pushbutton-telephone-sets/button-sizing.png)
 
----
-
-Real User Data vs. Lab data
-
-Idee: Tatsächliche Leute als möglich Nutzende zu Rate ziehen.
+-v-
 
 Datenerhebung:
 
 - Korrektheit der Eingaben
 - Eingabegeschwindigkeiten
 - Ratschläge/Ansichten der Testenden in Textform
+
+---
+
+## Web vitals
+
+Lab data & field data
+
+[web.dev/vitals](https://web.dev/vitals/)
 
 -v-
 
