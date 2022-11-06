@@ -248,31 +248,29 @@ Datenerhebung:
 
 ## Web vitals
 
-Lab data & field data
-
 [web.dev/vitals](https://web.dev/vitals/)
 
 -v-
 
-Ableiten von Web Vitals
-
-Unterschied zwischen Lab Data und RUM
-Was ist der Zugewinn durch RUM?
-
--v-
-
-Was wird sich von diesen Metriken erhofft?
-
-- Von Google
-- Von Leuten, die Websites bauen
-- Von Nutzenden
+- Lab data
+- Field data
+- p75
 
 -v-
 
-LCP - Largest Contentful Paint
+Wer erhofft sich hier was?
 
-Wie lange dauert es, die größte, initial sichtbare Fläche zu rendern?
-Wir interessieren uns für das p75 der Messungen.
+- User
+- WebDevs
+- Google
+
+-v-
+
+![web.dev lcp](./img/web-dev/lcp.svg)
+
+[web.dev/lcp](https://web.dev/lcp/)
+
+-v-
 
 Kontext:
 Das größte initiale Element - gleich ob Bild oder Text - einer Seite trägt den wichtigsten Inhalt.
@@ -280,7 +278,11 @@ Warten auf wichtige Inhalte ist frustrierend.
 
 -v-
 
-FID - First Input Delay
+![web.dev fid](./img/web-dev/fid.svg)
+
+[web.dev/fid](https://web.dev/fid/)
+
+-v-
 
 Wie lange ist die Verzögerung zwischen dem Auslösen der ersten Interaktion
   mit einer Seite und einer darauf folgenden Reaktion?
@@ -294,6 +296,10 @@ Initaler Delay -> ggf. passiert noch besonders viel zum Laden von Seitenteilen.
 -v-
 
 CLS
+
+-v-
+
+![web.dev cls](./img/web-dev/cls.svg)
 
 ---
 
