@@ -55,6 +55,8 @@ Angenehm kann dann auch sein
 
 [en.wikipedia.org/wiki/User_experience](https://en.wikipedia.org/wiki/User_experience)
 
+-v-
+
 > a user’s perceptions and responses that result
 > from the use and/or anticipated use …
 
@@ -69,15 +71,17 @@ Ganz schöner Themenkomplex.
 Wir gucken uns nur ein paar Aspekte an,  
 Google tut da was:
 
+- Das Rail performance Modell
 - Core Web Vitals
-- Das Rail performance model
 
 -v-
 
 Wir gucken uns nicht an:
 
+- A11y, aria
+- reduced-motion
+- high-contrast / low-contrast
 - Viele Sachen
-- A11y, aria, reduced-motion, high-contrast / low-contrast
 
 -v-
 
@@ -125,14 +129,13 @@ Empfehlungen, Beispiele:
 
 -v-
 
-Viele Vermutungen, wenig Messungen
+### Behauptung
 
-Behauptung, Miller 1968:
-(Reaktions-)Zeiten sind allgemeingültig, verändern sich wenig
+(Reaktions-)Zeiten verändern sich wenig
 
 ---
 
-### Nielsen Norman Group
+## Nielsen Norman Group
 
 Jakob Nielsen: Usability Engineering, 1993
 
@@ -140,7 +143,7 @@ Jakob Nielsen: Usability Engineering, 1993
 
 -v-
 
-#### Obere Grenzen
+### Obere Grenzen
 
 - 0.1s um eine Reaktion als Sofort wahrzunehmen
 - 1s für einen ununterbrochenen Gedankenfluss
@@ -163,6 +166,14 @@ das RAIL Modell.
 
 -v-
 
+### Idle
+
+- 💭: Idlezeit maximieren
+- In der Idlezeit angestaute Arbeit erledigen
+- Arbeit auf 50ms Blöcke beschränken
+
+-v-
+
 ### Response
 
 - 💭: 0.1s Budget
@@ -181,14 +192,6 @@ das RAIL Modell.
 - Zeit für JS pro Frame: 100ms/60 -> 16ms
   - 6ms für Rendering
   - <= 10 ms für JS
-
--v-
-
-### Idle
-
-- 💭: Idlezeit maximieren
-- In der Idlezeit angestaute Arbeit erledigen
-- Arbeit auf 50ms Blöcke beschränken
 
 -v-
 
@@ -336,7 +339,7 @@ So, hier - wie messen wir das nun?
 
 - [Chrome UX Report](https://developer.chrome.com/docs/crux/)
 - Begrenzt mit Lighthouse
-- Selbst nachgucken
+- Selbst nachgucken (DevTools)
 - Selbst sammeln
 
 -v-
