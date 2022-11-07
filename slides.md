@@ -19,6 +19,9 @@ Moin 👋
 Ich bin Jakob,  
 und manchmal mache ich 1 WebDev.
 
+- Hab ne Website: [runjak.codes](https://www.runjak.codes/)
+- Gibt Slides: [github.com/runjak/nook2022](https://github.com/runjak/nook2022)
+
 -v-
 
 Es gibt da dann ja so Komplexitäten, mit Software
@@ -47,11 +50,13 @@ Angenehm kann dann auch sein
 
 -v-
 
-> The **user experience** (UX) is how a user interacts with and experiences a product, system or service …
+> The **user experience** (UX) is how a user interacts with
+> and experiences a product, system or service …
 
 [en.wikipedia.org/wiki/User_experience](https://en.wikipedia.org/wiki/User_experience)
 
-> a user’s perceptions and responses that result from the use and/or anticipated use …
+> a user’s perceptions and responses that result
+> from the use and/or anticipated use …
 
 [ISO 9241](https://en.wikipedia.org/wiki/ISO_9241)
 
@@ -258,7 +263,7 @@ Datenerhebung:
 
 -v-
 
-Wer erhofft sich hier was?
+### Wer erhofft sich hier was?
 
 - User
 - WebDevs
@@ -272,9 +277,10 @@ Wer erhofft sich hier was?
 
 -v-
 
-Kontext:
-Das größte initiale Element - gleich ob Bild oder Text - einer Seite trägt den wichtigsten Inhalt.
-Warten auf wichtige Inhalte ist frustrierend.
+#### Largest contentful pait (LCP)
+
+- Größtes Element -> wichtigster Inhalt
+- Bild, Video, Text, ..
 
 -v-
 
@@ -284,93 +290,74 @@ Warten auf wichtige Inhalte ist frustrierend.
 
 -v-
 
-Wie lange ist die Verzögerung zwischen dem Auslösen der ersten Interaktion
-  mit einer Seite und einer darauf folgenden Reaktion?
-Wir interessieren uns für das p75 der Messungen.
+#### First input delay (FID)
 
-Kontext:
-Gerade Seiten mit JavaScript können besondere Verzögerungen bei Interaktionen haben.
-Langsamere Verbindungen sind eine zusätzliche Last.
-Initaler Delay -> ggf. passiert noch besonders viel zum Laden von Seitenteilen.
-
--v-
-
-CLS
+- Verzögerungen stören
+- JavaScript 💪🤬
+- Langsame Verbindungen / viele Daten?
 
 -v-
 
 ![web.dev cls](./img/web-dev/cls.svg)
 
----
-
-A draft on how to measure
-
-sendBeacon
-How to with Fastly
-In case of Cloudflare just change the CDN ;)
-S3 or similar
-
----
-
-// We start with some introduction
-
-The topic is big -> we only talk about aspects
-
-UX is a big word and lots of things can be meant by it and included with it.
-What does it mean for us here?
-
-What are we focussing on?
-
-- Stuff done by Google
-- Core Web Vitals
-- Rail model
-
-Maybe: what are we leaving out of scope?
-A11y aria reduced-motion high-contrast low-contrast
-
-What are implications?
-
-- For Google
-- For the Web
-- For users
-
-CTA
-Good stuff is not an accident
-Good websites are engineered
-Good engineering has a culture
-
----
-
-Web Vitals
-[web.dev/vitals](https://web.dev/vitals/)
-
-What is the aim?
-How is data gathered?
-What is real-user data vs. lab data?
+[web.dev/cls](https://web.dev/cls/)
 
 -v-
 
-LCP FID CLS ..
+#### Cumulative Layout Shift (CLS)
 
-UI patterns / anti-patterns
+- Verschiebungen ohne Interaktion
+- Verschiebungsscores
+- Summe über einen Zeitraum
 
-Demo of recording web vitals
-Demo of measuring performance in Chrome
+-v-
+
+#### Kurzes Ranten
+
+- Karusselle
+- Notifications, die reingeschoben werden
+- Automatisches Erneuern von Inhalten
+- Bilder, Fonts
+- …
+
+-v-
+
+Es gibt da ne Sammlung von guten Patterns
+
+[web.dev/patterns/web-vitals-patterns](https://web.dev/patterns/web-vitals-patterns/)
 
 ---
 
-RAIL model
-[web.dev/rail](https://web.dev/rail/)
+## Messen
 
-Why have a performance model?
-The idea of a budget that is derived from measured numbers.
+So, hier - wie messen wir das nun?
+
+-v-
+
+- [Chrome UX Report](https://developer.chrome.com/docs/crux/)
+- Begrenzt mit Lighthouse
+- Selbst nachgucken
+- Selbst sammeln
+
+-v-
+
+### Selbst Messungen sammeln
+
+- [npmjs.com/package/web-vitals](https://www.npmjs.com/package/web-vitals)
+- [Navigator.sendBeacon](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon)
+- Aggregation im Backend
+
+-v-
+
+#### Datenspaarsamkeit
+
+- Messwert
+- Seitentyp oder sowas
+- Deviceklasse
 
 ---
 
-- ⏱️ Lasst mal Dinge messen!
-- 🚀 Lasst mal ungünstige Messungen besser machen!
+- Lasst mal messen ⏱️
+- Lasst mal verbessern 🚀
 
 Weil wir Software mögen und so 🤗
-
-- Slides: [github.com/runjak/nook2022](https://github.com/runjak/nook2022)
-- Website: [runjak.codes](https://www.runjak.codes/)
