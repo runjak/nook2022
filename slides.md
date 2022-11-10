@@ -205,6 +205,7 @@ das RAIL Modell.
 
 ---
 
+[wikipedia../File:Telefon_BW_2012-02-18_13-44-32.JPG](https://en.wikipedia.org/wiki/File:Telefon_BW_2012-02-18_13-44-32.JPG)
 ![Telefone](./img/Telefon_BW_2012-02-18_13-44-32.jpg)
 
 -v-
