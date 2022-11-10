@@ -121,7 +121,7 @@ Wir gucken uns nicht an:
 
 -v-
 
-Empfehlungen, Beispiele:
+Beispiele:
 
 - Zeit bis zum Signalton am Telefon
 - Frustrationen bei Interaktion mit textbasierten Interfaces
@@ -132,6 +132,8 @@ Empfehlungen, Beispiele:
 ### Behauptung
 
 (Reaktions-)Zeiten verändern sich wenig
+
+-> Empfehlungen
 
 ---
 
@@ -355,7 +357,7 @@ So, hier - wie messen wir das nun?
 #### Datenspaarsamkeit
 
 - Messwert
-- Seitentyp oder sowas
+- Seitentyp, Route oder sowas
 - Deviceklasse
 
 ---
