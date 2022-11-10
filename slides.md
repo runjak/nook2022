@@ -105,33 +105,26 @@ Wir gucken uns nicht an:
 
 -v-
 
-### Viel inhalt
+### Viel Inhalt
 
 - Activity clumping
 - Psychological closure
 - Stepdown discontinuities bei Verzögerungen
-- Ratschläge für unterschiedliche Scenarien
-  - Response to simply inquiry of listed information
 
 -v-
 
-### Next page
-
-![Miller 1968 headline](./img/miller-1968-conversational-transactions/page-turning.png)
-
--v-
-
-Beispiele:
+### Beispiele
 
 - Zeit bis zum Signalton am Telefon
-- Frustrationen bei Interaktion mit textbasierten Interfaces
 - Nebenläufige Prozesse - in 1h oder 1t ist ~egal
+- 📖️ + ⏱️ -> 💢
+<!-- ![Miller 1968 page turning](./img/miller-1968-conversational-transactions/page-turning.png) -->
 
 -v-
 
 ### Behauptung
 
-(Reaktions-)Zeiten verändern sich wenig
+Reaktionszeiten verändern sich wenig
 
 -> Empfehlungen
 
